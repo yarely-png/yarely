@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>Formulario de contacto</title>
+<title>Tacos Don Benja</title>
+<link rel= "Stylesheet" href= "cascada-tacos.css">
+</head>
+<body>
+<table width=100% bgcolor=ff6666>
+<tr>
+<td>
+<a href="TacosDonBenja.html">Inicio</td>
+<td>
+<a href="SobreNosotros.html">Sobre nosotros</td>
+<td>
+<a href="Galeria.html">Galeria</td>
+</td>
+<td>
+<a href="Servicios.html">Servicios</td>
+<td>
+Contacto</td>
+</tr></table>
+</table>
+<div class="contact_form">
+<div class="Formulario">
+<h1>Formulario de contacto</h1>
+<h3>Escribenos y en breve nos ponemos en contacto contigo</h3>
+<form action="formulario.php" method="post">
+<p>
+<label for="nombre" class="colocar_nombre">Nombre
+<span class="obligatorio">*</span>
+</label>
+<input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+</p>
+<p>
+<label for="email" class="colocar_email">Email
+<span class="obligatorio">*</span>
+</label>
+<input type="email" name="introducir_email" id="email" required="obligatori"o placeholder="Escribe tu email">
+</p>
+<p>
+<label for="telefono" class="colocar_telefono">Telefono
+</label>
+<input type="tel" name="introducir_telefono" id="telefono" required="obligatorio" placeholder="Escribe tu telefono">
+</p>
+<p>
+<label for="asunto" class="colocar_asunto">Asunto
+<span class="obligatorio">*</span>
+</label>
+<input type="text" name="introducir_asunto" id="asunto" required="obligatorio" placeholder="Escribe tu asunto">
+</p>
+<p>
+<label for="mensaje" class="colocar_mensaje">Mensaje
+<span class="obligatorio">*</span>
+</label>
+<Textarea name="introducir_mensaje" id="mensaje" required="obligatorio" placeholder="Escribe tu mensaje"></Textarea>
+</p>
+<button type="submit" name="enviar_formulario" id="enviar"<p>Enviar</p></button>
+<p class="aviso">
+<span class="obligatorio">*</span>los campos son obligatorios.
+</p>
+</form>
+</div>
+</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3744.678759796336!2d-100.15207432594323!3d20.189096616089973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d31a37b726d435%3A0xfe95c76b6e174363!2sTacos%20La%20Casita!5e0!3m2!1ses-419!2smx!4v1747833868329!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+</html>
